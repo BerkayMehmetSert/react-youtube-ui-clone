@@ -1,0 +1,59 @@
+/** =//    Option Component    //=*/
+.navigation__option {
+  display: flex;
+  flex-direction: row;
+  min-width: 225px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigation__option-list {
+  display: flex;
+  flex-direction: row;
+}
+.navigation__option-list ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.navigation__option-icon-container {
+  display: flex;
+  outline: none;
+  margin-right: 8px;
+}
+.navigation__option-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  padding: 8px;
+}
+.navigation__option-profile {
+  display: flex;
+}
+.navigation__option-profile-pic {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 6px;
+}
+.profile-pic__img {
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: 0 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+}
+.profile-pic__img img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}

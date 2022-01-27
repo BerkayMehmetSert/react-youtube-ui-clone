@@ -1,0 +1,20 @@
+/** =// From Component    //=*/
+.slider__form {
+  border-top: 1px solid var(--sidebar-border-color);
+  padding: 12px 0;
+  display: block;
+}
+.slider__form__bottom {
+  border-top: 1px solid var(--sidebar-border-color);
+  padding: 12px 0;
+  display: block;
+}
+.item__title {
+    padding: 8px 24px;
+    color: var(--sidebar-title-color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+}  

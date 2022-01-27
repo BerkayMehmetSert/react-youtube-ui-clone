@@ -1,0 +1,29 @@
+/** =// Slider Component //= */
+.slider {
+  z-index: 9999;
+  width: 240px;
+  height: calc(100% - 40px);
+  right: auto;
+  position: fixed;
+  text-align: start;
+  overflow: hidden;
+  flex: 1;
+}
+.slider:hover {
+  overflow-y: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(170, 170, 170, 1);
+  border-radius: 8px;
+  height: 56px;
+}

@@ -1,0 +1,10 @@
+/** =// Top Component //= */
+.slider__top {
+  padding: 12px 0;
+  display: block;
+}
+.slider__top__bottom {
+  border-top: 1px solid var(--sidebar-border-color);
+  padding: 12px 0;
+  display: block;
+}
